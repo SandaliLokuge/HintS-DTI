@@ -1,7 +1,7 @@
 # HintS-DTI
 #### Drug-target interaction prediction using large language model with hint-based learning and siamese network.
 
-This project is a modified version of DLM-DTI_hint-based-learning (https://github.com/jonghyunlee1993/DLM-DTI_hint-based-learning) by Jonghyun Lee et al. (https://jcheminf.biomedcentral.com/articles/10.1186/s13321-024-00808-1). The original project focuses on leveraging prior knowledge of molecular and protein structures to improve the prediction performance of drug-target interactions.
+This project is a modified version of DLM-DTI_hint-based-learning (https://github.com/jonghyunlee1993/DLM-DTI_hint-based-learning) by Jonghyun Lee et al. (https://jcheminf.biomedcentral.com/articles/10.1186/s13321-024-00808-1). The original project focuses on leveraging pretrained language models on molecular (drug) and protein structures to improve the prediction performance of drug-target interactions.
 
 Under the conclusion section, Jonghyun Lee et al. mentioned the need for enhancement in the design of the interaction head. Thus, I utilized a Siamese Neural Network to implement the interaction head. The proposed model is outlined below.
 
